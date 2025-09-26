@@ -1,0 +1,55 @@
+/* Estilo geral da janela (o container principal) */
+.root {
+    -fx-background-color: #2B2B2B; /* Cor de fundo cinza escuro */
+    -fx-font-family: "Segoe UI", sans-serif; /* Fonte mais moderna */
+}
+
+/* Estilo para todas as etiquetas de texto (Label) */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #DDDDDD; /* Cor do texto cinza claro */
+    -fx-font-weight: bold;
+}
+
+/* Estilo para os botões */
+.button {
+    -fx-background-color: #007BFF; /* Cor de fundo azul vibrante */
+    -fx-text-fill: white; /* Cor do texto branca */
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Efeito quando o mouse passa por cima do botão */
+.button:hover {
+    -fx-background-color: #0056b3; /* Azul um pouco mais escuro */
+    -fx-cursor: hand; /* Muda o cursor para a "mãozinha" */
+}
+
+/* Efeito quando o botão é pressionado */
+.button:pressed {
+    -fx-background-color: #004085; /* Azul ainda mais escuro */
+}
+
+/* Estilo para os campos de texto e caixas de seleção */
+.text-field, .combo-box {
+    -fx-background-color: #3C3F41; /* Fundo cinza um pouco mais claro */
+    -fx-text-fill: #DDDDDD; /* Cor do texto digitado */
+    -fx-prompt-text-fill: #AAAAAA; /* Cor do texto de dica (prompt text) */
+    -fx-border-color: #555555; /* Cor da borda */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 14px;
+}
+
+/* Estilo específico para a lista que aparece no ComboBox */
+.combo-box .list-cell {
+    -fx-background-color: #3C3F41;
+    -fx-text-fill: #DDDDDD;
+}
+
+/* Cor da célula da lista quando o mouse passa por cima */
+.combo-box .list-cell:hover {
+    -fx-background-color: #007BFF;
+    -fx-text-fill: white;
+}
