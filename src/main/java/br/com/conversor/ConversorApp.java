@@ -27,7 +27,7 @@ public class ConversorApp extends Application {
             return;
         }
 
-        primaryStage.setTitle("Conversor de Moedas Online");
+        primaryStage.setTitle("Conversor de Moedas Online via API");
 
         // --- Construção dos Componentes da Interface ---
         Label labelDe = new Label("Converter de:");
